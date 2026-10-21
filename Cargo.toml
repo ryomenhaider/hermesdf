@@ -1,6 +1,11 @@
 [package]
-name = "HDF"
+name = "hermesdf"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+arrow = "60.0.0"
+arrow-array = "60.0.0"
+arrow-schema = "60.0.0"
+arrow-select = "60.0.0"
+thiserror = "2.0.21"
